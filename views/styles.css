@@ -1,0 +1,157 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  background-color: white;
+}
+.header-container{
+  background-color: rgba(101, 96, 98, 0.41);
+  height: 60px;
+  margin-bottom: 70px;
+  font-size: 15px;
+}
+header p{
+  float: left;
+}
+.header-right{
+  line-height: 60px;
+  float: right;
+  margin-right: 10px;
+}
+.header-right a{
+  margin-left:20px;
+}
+.main-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-container p{
+  font-size: 20px;
+}
+.main-image{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+.share{
+  text-align: center;
+  border-bottom: solid 2px black;
+  font-size: 20px;
+}
+.output{
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: rgb(44, 157, 199);
+  padding: 10px 0;
+}
+.login{
+  margin: 40px 0;
+  text-align: right;
+  font-size:20px;
+}
+.login a{
+  margin: 10px;
+  color: black;
+}
+.upload{
+  width: auto;
+  height: auto;
+}
+.upload-container{
+  width:90%;
+  margin:80px auto;
+  font-size: 15px;
+}
+.up{
+  text-decoration: none;
+  color: black;
+}
+.title {
+  margin-bottom: 20px;
+}
+.title p:first-child{
+  font-weight: bold;
+  text-align: center;
+
+}
+.title p:last-child{
+  font-size: 20px;
+}
+.title-link{
+  text-decoration: none;
+  color: black;
+}
+.intr p:first-child{
+  font-weight: bold;
+  text-align: center;
+}
+.keyword p:first-child{
+  font-weight: bold;
+  margin-right: 30px;
+}
+.keyword p{
+  display: inline-block;
+  margin-right: 20px;
+}
+.presenter p:first-child{
+  font-weight: bold;
+  margin-right:30px;
+}
+.presenter p{
+  display: inline-block;
+  margin-right: 20px;
+}
+.maintext p:first-child{
+    font-weight: bold;
+
+}
+.maintext p:last-child{
+  white-space:pre-wrap;
+}
+
+.next a{
+  color: black;
+}
+.next{
+  text-align: center;
+}
+.footer-container{
+  background-color: rgba(101, 96, 98, 0.41);
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 60px;
+}
+.footer-t{
+  text-align: center;
+}
+.footer-t p{
+  display: inline-block;
+  margin: 0 10px;
+}
+.copy{
+  text-align: center;
+  margin: 0;
+}
+
+
+h2{
+  margin: 10px;
+}
+.form{
+  margin: 10px;
+}
+#confirm-t{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.menu-container{
+  text-align: center;
+}
+.menu-container form{
+  display: inline-block;
+}
+
+.non{
+  background-color: white;
+  border-style: none;
+}
