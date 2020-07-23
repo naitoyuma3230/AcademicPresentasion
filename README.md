@@ -1,0 +1,2 @@
+# AcademicPresentasion
+ジャーナル投稿の簡易プラットフォーム
