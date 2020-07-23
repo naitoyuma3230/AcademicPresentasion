@@ -1,17 +1,31 @@
 drop table if exists journal;
 
+-- CREATE TABLE journal (
+-- id INT AUTO_INCREMENT COMMENT 'id',
+-- title varchar(200)  COMMENT 'タイトル',
+-- presenter varchar(50)  COMMENT '発表者',
+-- abstract varchar(200) UNIQUE COMMENT '概要',
+-- keyword1 varchar(50)  COMMENT 'キーワード1',
+-- keyword2 varchar(50)  COMMENT 'キーワード2',
+-- keyword3 varchar(50)  COMMENT 'キーワード3',
+-- maintext text  COMMENT '本文',
+-- created datetime,
+-- modified datetime,
+-- PRIMARY KEY(id,title,presenter,abstract)
+-- );
+
 CREATE TABLE journal (
 id INT AUTO_INCREMENT COMMENT 'id',
-title varchar(200)  COMMENT 'タイトル',
+title varchar(255) UNIQUE COMMENT 'タイトル',
 presenter varchar(50)  COMMENT '発表者',
-abstract varchar(200) UNIQUE COMMENT '概要',
+abstract text COMMENT '概要',
 keyword1 varchar(50)  COMMENT 'キーワード1',
 keyword2 varchar(50)  COMMENT 'キーワード2',
 keyword3 varchar(50)  COMMENT 'キーワード3',
 maintext text  COMMENT '本文',
 created datetime,
 modified datetime,
-PRIMARY KEY(id,title,presenter,abstract)
+PRIMARY KEY(id,title,presenter)
 );
 
 INSERT INTO journal(title,presenter,abstract,keyword1,keyword2,keyword3,maintext,created,modified)
